@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: #779CAB;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.HomeController">
+   <children>
+      <Text fill="#fcffeb" layoutX="47.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HOME: CATEGORIES" textAlignment="CENTER">
+         <font>
+            <Font name="DIN Alternate Bold" size="36.0" />
+         </font>
+      </Text>
+      <Region layoutX="16.0" layoutY="76.0" prefHeight="310.0" prefWidth="368.0" style="-fx-background-color: F0F8FF;" />
+      <VBox fx:id="categoriesContainer" layoutX="24.0" layoutY="84.0" prefHeight="293.0" prefWidth="349.0" />
+   </children>
+</AnchorPane>

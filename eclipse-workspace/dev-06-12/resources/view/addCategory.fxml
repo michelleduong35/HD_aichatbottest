@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: #779CAB;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.addCategoryController">
+   <children>
+      <Text fill="#fcffeb" layoutX="37.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CREATE A CATEGORY" textAlignment="CENTER">
+         <font>
+            <Font name="DIN Alternate Bold" size="36.0" />
+         </font>
+      </Text>
+      <Region layoutX="16.0" layoutY="76.0" prefHeight="310.0" prefWidth="368.0" style="-fx-background-color: F0F8FF;" />
+      <Text fill="#474350" layoutX="78.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Category Name:">
+         <font>
+            <Font name="DIN Alternate Bold" size="25.0" />
+         </font>
+      </Text>
+      <TextField id="categoryNameInput" fx:id="categoryNameInput" layoutX="78.0" layoutY="200.0" prefHeight="42.0" prefWidth="243.0" promptText="Enter Category Name Here...">
+         <font>
+            <Font name="DIN Alternate Bold" size="15.0" />
+         </font>
+      </TextField>
+      <Button id="addCategoryButton" layoutX="193.0" layoutY="272.0" mnemonicParsing="false" onAction="#addCategoryOp" prefHeight="31.0" prefWidth="128.0" text="Add Category!" />
+      <Button id="cancelButton" layoutX="78.0" layoutY="272.0" mnemonicParsing="false" onAction="#showHomeOp" prefHeight="31.0" prefWidth="65.0" text="Cancel" />
+   </children>
+</AnchorPane>
